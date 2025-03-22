@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/app.css -o ./assets/app.css --watch",
     "build:js": "vite build --watch",
-    "dev": "concurrently \"npm run build:css\" \"npm run build:js\" \"shopify theme dev\""
+    "dev": "concurrently \"npm run build:css\" \"npm run build:js\" \"shopify theme dev\"",
+    "pull:json": "shopify theme pull --only 'config/*.json' 'templates/*.json' 'sections/*.json'"
   },
   "repository": {
     "type": "git",
