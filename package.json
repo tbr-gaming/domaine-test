@@ -1,0 +1,27 @@
+{
+  "name": "domaine-test",
+  "version": "1.0.0",
+  "description": "read me",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/app.css -o ./assets/app.css --watch",
+    "dev": "concurrently \"npm run build:css\" \"shopify theme dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbr-gaming/domaine-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbr-gaming/domaine-test/issues"
+  },
+  "homepage": "https://github.com/tbr-gaming/domaine-test#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

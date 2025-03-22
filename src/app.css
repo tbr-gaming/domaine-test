@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+  @apply text-yellow-500 font-bold;
+}
