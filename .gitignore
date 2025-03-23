@@ -1,3 +1,6 @@
 node_modules/*
+images/*
 .DS_Store
 .shopify
+.env
+.vscode
