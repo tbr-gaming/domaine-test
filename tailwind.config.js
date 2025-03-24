@@ -7,6 +7,10 @@ module.exports = {
     './assets/*.css',
   ],
   theme: {
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      franklin: ['"Franklin Gothic ATF"', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
